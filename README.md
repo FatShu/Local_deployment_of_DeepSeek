@@ -1,0 +1,2 @@
+# Local_deployment_of_DeepSeek
+DeepSeek本地部署及应用
