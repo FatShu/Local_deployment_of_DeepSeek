@@ -163,7 +163,7 @@ def ask_ollama(prompt: str, model: str = "deepseek-r1:1.5b", system: str = "你�
             "stream": True  # 启用流式响应
         }
         
-        print(f"\n {model})模型正在思考")
+        print(f"\n {model} 正在思考")
         print("=" * 50)
         
         full_response = ""
