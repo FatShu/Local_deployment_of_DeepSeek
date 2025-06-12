@@ -28,7 +28,8 @@ except ImportError:
 def get_database_dir() -> str:
     """获取Database文件夹的路径"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(script_dir, "Database")
+    parent_dir = os.path.dirname(os.path.dirname(script_dir))
+    return os.path.join(parent_dir, "Database")
 
 def get_all_analyzable_files() -> List[str]:
     """获取Database文件夹下所有可分析文件的名称"""
