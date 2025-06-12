@@ -15,7 +15,6 @@
 3. 克隆本仓库：
    ```bash
    git clone https://github.com/FatShu/Local_deployment_of_DeepSeek
-   cd Local_deployment_of_DeepSeek
    ```
 4. 安装项目依赖：
    ```bash
