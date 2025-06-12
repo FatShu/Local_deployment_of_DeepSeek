@@ -32,12 +32,13 @@ https://ollama.com/
 ollama默认安装在C:\Program Files\Ollama下<br>
 可以通过用管理员身份打开命令提示符（CMD）输入
 ```bash
-路径\0llamaSetUp.exe /DIR="需要安装的路径"<
+路径\0llamaSetUp.exe /DIR="需要安装的路径"
 ```
 ### 安装AI大模型
 在Ollama官网中选择需要的模型后<br>
 打开命令提示符输入ollama run 模型名进行使用，如果模型未安装会自动进行下载<br>
-例如：```bash
+例如：
+```bash
 ollama run deepseek-r1:32b
 ```
 推荐16G显存可以下载32b的版本，小显存的建议1.5b版本，7b版本需要6G左右的显存<br>
@@ -51,9 +52,11 @@ ollama run deepseek-r1:32b
 查看ollama是否运行，输入ollama serve可以查看，ollama默认监听11434端口<br>
 如果需要修改监听端口，新建环境变量，变量名为OLLAMA_PORT，变量值为需要监听的端口<br>
 需要安装的python包有openpyxl python-docx textract pandas ollama six<br>
-输入```bash
+输入
+```bash
 pip install openpyxl python-docx textract pandas ollama six
-```即可进行安装<br>
+```
+即可进行安装<br>
 安装完成后就可以运行Python代码使用AI了，如果你发现任何问题或有改进建议，请提交Issue或Pull Request。<br>
 
 ## 项目结构
